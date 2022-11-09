@@ -27,7 +27,7 @@ class Day
     //GetMethods
     Day GetDay(int day_number);
     Day GetDay(const char* _DayName);
-
+    
     //AddFunctions
     void AddActivities();
 

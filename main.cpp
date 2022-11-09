@@ -1,6 +1,15 @@
 #include <iostream>
+//#include "StdFunctions.h"
 
+const char* GetInputString()
+    {
+    char* input = "";
 
+    std::cin >> input;
+
+    return input;
+
+    };
 
 int main()
 {
@@ -33,7 +42,10 @@ int main()
          
 
         cout << "What kind of Plan would you like to create? Enter the number to select: \n 1: Day \n 2: Week \n 3: Weeekend" << endl;
+
         
+        
+        cout << GetInputString() << endl;
 
     }
 

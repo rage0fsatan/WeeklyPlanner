@@ -1,8 +1,8 @@
 #include "Day.h"
 
-    void Day::CreateSpace()
-    {
-
+void Day::CreateSpace()
+{
+    
 }
 
 void Day::GenerateDay()
