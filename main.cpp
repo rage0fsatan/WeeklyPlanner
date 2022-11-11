@@ -1,4 +1,6 @@
 #include <iostream>
+#include "Day.h"
+#include "Week.h"
 //#include "StdFunctions.h"
 
 const char* GetInputString()
@@ -43,7 +45,25 @@ int main()
 
         cout << "What kind of Plan would you like to create? Enter the number to select: \n 1: Day \n 2: Week \n 3: Weeekend" << endl;
 
-        
+
+        unsigned int _input;
+        cin >> _input;
+
+        switch (_input)
+        {
+            case 1:
+                Day day;
+
+                day.SetName("HSS");
+
+                
+
+            case 2:
+                Week week;
+
+            case 3:
+                cout << "Weekendfunction is not avalible!" << endl;
+        }
         
         cout << GetInputString() << endl;
 

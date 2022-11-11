@@ -9,11 +9,12 @@ class Day
     
     
 
-    Day();
+    
 
 
     public:
-
+    Day();
+    
     void CreateSpace();
 
     void GenerateDay();
