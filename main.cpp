@@ -1,17 +1,9 @@
 #include <iostream>
-#include "Day.h"
+//#include "Day.h"
 #include "Week.h"
-//#include "StdFunctions.h"
+#include "StdFunctions.h"
 
-const char* GetInputString()
-    {
-    char* input = "";
 
-    std::cin >> input;
-
-    return input;
-
-    };
 
 int main()
 {
@@ -54,18 +46,22 @@ int main()
             case 1:
                 Day day;
 
-                day.SetName("HSS");
+                
 
+                day.SetName(StdFunctions::GetInputString());
+
+                cout << day.GetName() << endl;
+                break;
                 
 
             case 2:
-                Week week;
+               
+                
 
             case 3:
                 cout << "Weekendfunction is not avalible!" << endl;
         }
         
-        cout << GetInputString() << endl;
 
     }
 

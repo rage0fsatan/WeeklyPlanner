@@ -1,4 +1,4 @@
-
+#include "StdFunctions.h"
 
 class Day
 {
@@ -19,6 +19,7 @@ class Day
 
     void GenerateDay();
 
+    
 
 
     //SetMethods
@@ -28,6 +29,7 @@ class Day
     //GetMethods
     Day GetDay(int day_number);
     Day GetDay(const char* _DayName);
+    const char* GetName();
     
     //AddFunctions
     void AddActivities();

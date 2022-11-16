@@ -10,15 +10,25 @@ void Day::GenerateDay()
 
 }
 
-void Week::SetDay(int day_number, Day _day)
+void Day::SetDay(int day_number, Day _day)
 {
 
 };
 
 
-void Week::SetDay(const char* day_name, Day _day)
+void Day::SetDay(const char* day_name, Day _day)
 {
 
 };
 
 Day GetDay(int day_number);
+
+const char* Day::GetName()
+{
+    return DayName;
+};
+
+void Day::AddActivities()
+{
+    
+};
